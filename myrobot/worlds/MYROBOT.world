@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+    <include>
+      <uri>model://sun</uri>
+    </include>
+  <model name="barrierA">
+    <include>
+      <uri>model://jersey barrier</uri>
+      <pose> 2 0 0 0 0 0</pose>
+      <static>true</static>
+    </include>
+  </model>
+  <model name="barrierB">
+    <include>
+      <uri>model://jersey barrier</uri>
+      <pose> 0 2 0 0 0 1.2</pose>
+      <static>true</static>
+    </include>
+  </model>
+  </world>
+</sdf>
